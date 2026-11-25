@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Backoffice</title>
+  <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+  <main class="auth">
+    <div class="contenedor">
+
+      <aside class="lado">
+        <h2>Bienvenido de nuevo</h2>
+        <p>Entra a tu cuenta para administrar todo desde un solo lugar.</p>
+      </aside>
+
+      <section class="card">
+        <h1>Iniciar sesión</h1>
+        <p class="subtitle">Escribe tus datos para continuar</p>
+
+        <form action="login.html" method="post">
+          <div class="campo">
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+          </div>
+
+          <div class="campo">
+            <label for="clave">Contraseña</label>
+            <input type="password" id="clave" name="clave" placeholder="Tu contraseña" required>
+          </div>
+
+          <button type="submit" class="boton">Entrar</button>
+        </form>
+
+        <p class="enlace">¿No tienes cuenta? <a href="register.html">Regístrate</a></p>
+      </section>
+
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro - Backoffice</title>
+  <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+  <main class="auth">
+    <div class="contenedor">
+
+      <aside class="lado">
+        <h2>Crea tu cuenta</h2>
+        <p>Regístrate en unos segundos y empieza a usar el backoffice.</p>
+      </aside>
+
+      <section class="card">
+        <h1>Registro</h1>
+        <p class="subtitle">Llena el formulario para empezar</p>
+
+        <form action="register.html" method="post">
+          <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+          </div>
+
+          <div class="campo">
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+          </div>
+
+          <div class="campo">
+            <label for="clave">Contraseña</label>
+            <input type="password" id="clave" name="clave" placeholder="Mínimo 6 caracteres" minlength="6" required>
+          </div>
+
+          <button type="submit" class="boton">Registrarme</button>
+        </form>
+
+        <p class="enlace">¿Ya tienes cuenta? <a href="login.html">Inicia sesión</a></p>
+      </section>
+
+    </div>
+  </main>
+</body>
+</html>
